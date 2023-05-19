@@ -1,0 +1,26 @@
+div{
+    height: 100px;
+    width: 100px;
+    color: aqua;
+    background-color: rgb(210, 255, 127);
+    margin: 30px;
+    padding: 30px;
+}
+.one{
+    transform: scale(2,2);
+    transform: scaleX(2)
+}
+.two{
+    transform: translate(30px, 55px);
+    transform: translateX(30px) rotate(45deg);
+    /* or first rotate then translate */
+}
+.three{
+    transform: rotate(45deg);
+    transform: rotateX(45deg);
+    transform: rotateY(45deg);
+}
+.four{
+    transform: skew(40deg);
+}
+

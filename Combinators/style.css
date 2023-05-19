@@ -1,0 +1,17 @@
+h2 + p{
+    font-weight: bold;
+    font-size: 40px;
+    /* p that comes next to h2 */
+}
+h2~p{
+   color: red;
+   /* Any no. of p's that comes after h2 in one go only else break */
+}
+section>p{
+    color : blue;
+    /* All p's after section that is inside of section only else not */
+}
+section p{
+    background-color: aquamarine;
+    /* All p's after section whether inside in other tags or not */
+}

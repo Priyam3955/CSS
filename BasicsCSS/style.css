@@ -1,0 +1,28 @@
+*{
+    color : orange;
+    margin : 40px;
+}
+div{
+    background-color: aqua;
+    
+}
+p{
+    background-color: rgb(115, 255, 0);
+    font-size: 30px;
+}
+#p1{
+    font-family: 'Courier New', Courier, monospace; 
+}
+#p2{
+    font-family: 'Courier New';
+}
+#p3{
+    margin-left: 30px;
+}
+.Awspara{
+   background-color: red;
+}
+.Bigpara{
+    background-color: brown;
+    font-weight: 200px;
+}

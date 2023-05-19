@@ -1,0 +1,14 @@
+.btn{
+    margin: 100px;
+    background-color: peru;
+    color: antiquewhite;
+    font-size: 30pt;
+    padding: 100px;
+    width: 30px;
+    box-shadow: grey 10px 10px 10px;
+    transition: 0.2s;
+    border-radius: 5px;
+}
+.btn:hover{
+    transform: translate(-50px,50px);
+}

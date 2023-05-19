@@ -1,0 +1,33 @@
+*{
+   font-style: italic;
+}
+div{
+    color : blue
+
+}
+p{
+    color : red
+}
+.big{
+    font-size: 40px;
+    margin: 0px;
+}
+.bold{
+    font-weight: bold;
+}
+.big bold{
+     font-size: 100px;
+}
+#one{
+    background-color: orange;
+}
+[disabled]{
+    background-color: cyan;
+}
+[type = "text"]{
+    height: 100px;
+    width: 100px;
+}
+
+
+

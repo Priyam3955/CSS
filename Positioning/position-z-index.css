@@ -1,0 +1,55 @@
+.container{
+    background-color : lightgreen;
+    height: auto;
+    /* All elements in div will be wrapped */
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+}
+.item{
+   background-color: aqua;
+   height: 50px;
+   width: 50px;
+   margin :  10px;
+   color: white;
+   font-size: 20pt;
+}
+.one > .four{
+    position: relative;
+    /* left: 1px; */
+    right : 10px;
+    left : 100px;
+    bottom : 5px;
+    background-color: brown;
+}
+/* Above can be written as .container.one > .item.four */
+.container.two>.item.five{
+    position: fixed;
+    left: 100px;
+    top: 100px;
+    
+}
+.container>.two{
+    position: sticky;
+    top: 30px;
+    bottom: 30px;
+}
+.item  :nth-child(5n){
+    background-color: red;
+}
+.container  :nth-child(2n){
+    background-color: orange;
+}
+.container>.two{
+    z-index: -10;
+    border: solid black 2px;
+}
+.one>.three{
+    position: relative;
+    z-index: 5;
+}
+.one > .six{
+    position: relative;
+    z-index: 6;
+}
+
